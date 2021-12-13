@@ -1,0 +1,28 @@
+header {
+    background: rgba(255, 255, 255, 0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+        .links {
+            a {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: -0.355556px;
+            color: $W;
+            transition: 0.3s all;
+            &:hover {
+                border-bottom: 5px;
+                
+            }
+        }
+    }
+    .socials {
+        svg {
+            margin-left: 6px;
+            margin-right: 6px;
+        }
+    }
+    
+}

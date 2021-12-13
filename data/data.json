@@ -1,0 +1,10 @@
+{
+"headerLink": [
+    { "link": "about", "text": "About Us" },
+    { "link": "team", "text": "Our Team" },
+    { "link": "who-uses-us", "text": "Who Uses Us" },
+    { "link": "information-center", "text": "Information Center" },
+    { "link": "contacts", "text": "Contacts" }
+
+  ]
+}
