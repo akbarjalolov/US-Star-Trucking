@@ -43,30 +43,6 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    [
-      'nuxt-i18n',
-      {
-        locales: [
-          {
-            code: 'ru',
-            file: 'ru.js',
-          },
-          {
-            code: 'uz',
-            file: 'uz.js',
-          },
-          {
-            code: 'en',
-            file: 'en.js',
-          },
-        ],
-        strategy: 'prefix',
-        defaultLocale: 'uz',
-        detectBrowserLanguage: false,
-        lazy: true,
-        langDir: 'languages/',
-      },
-    ],
   ],
 
   styleResources: {
