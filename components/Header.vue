@@ -1,7 +1,7 @@
 <template>
 <header>
   <div class="container">
-    <div class="row align-items-center justify-content-between pt-30 pb-50">
+    <div class="row align-items-center justify-content-between pt-35 pb-35">
         <div class="logo">
               <nuxt-link to="/">
           <img src="@/static/images/logo.svg" alt="">
@@ -41,6 +41,7 @@
           <button class="dark-btn">
             GET A QUOTE
           </button>
+          
         </div>
     </div>
   </div>

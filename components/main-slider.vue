@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-        <h1 class="mb-8">We just want to get your job done!</h1>
+        <h1 class="mb-8">Shipping any Vehicle,  Anywhere, Any Time </h1>
         <h6 class="mb-16">As Soon As Possible</h6>
         <button class="white-btn">
             GET A QUOTE
@@ -92,6 +92,12 @@ export default {
       next() {
           this.$refs.mainSlider.next()
       },
-  }
+  },
+  mounted() {
+    console.log(this.$refs.mainSlider);
+    let dots = document.querySelectorAll('.slick-dots');
+    console.log(dots);
+  },
+
 };
 </script>
