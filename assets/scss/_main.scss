@@ -140,7 +140,7 @@
 }
 
 .steps {
-    background: #28293A;
+    background: #28293a;
     h2 {
         font-weight: bold;
         font-size: 32px;
@@ -179,39 +179,37 @@
     svg {
         margin-top: -6px;
     }
-
 }
 
 .map {
     .form {
         .relative {
+            h6 {
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: -0.36px;
+                color: #ffffff;
+            }
 
-        h6 {
-            font-weight: bold;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: -0.36px;
-color: #FFFFFF;
-        }
+            svg {
+                position: absolute;
+                top: 45px;
+                z-index: 2;
+                left: 12px;
+                top: 38px;
+            }
 
-        svg {
-            position: absolute;
-            top: 45px;
-            z-index: 2;
-            left: 12px;
-    top: 38px;
-        }
-
-        .el-input__inner {
-            background: #30313B;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-sizing: border-box;
-            border-radius: 8px;
-            padding: 12px 12px 12px 40px;
-            color: $W;
+            .el-input__inner {
+                background: #30313b;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                box-sizing: border-box;
+                border-radius: 8px;
+                padding: 12px 12px 12px 40px;
+                color: $W;
+            }
         }
     }
-}
 
     .el-icon-date {
         display: none;
@@ -220,4 +218,71 @@ color: #FFFFFF;
 
 .relative {
     position: relative;
+}
+
+.reviews {
+    background: #28293a;
+    .slick-track {
+        display: flex;
+    }
+
+    .review-cards {
+        background: #363749;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-sizing: border-box;
+        backdrop-filter: blur(30px);
+        border-radius: 10px;
+        padding: 12px 16px 16px 16px;
+
+        .rev-head {
+            img {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                margin-right: 8px;
+            }
+
+            h6 {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 130%;
+                letter-spacing: -0.36px;
+                color: #ffffff;
+            }
+
+            p {
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 130%;
+                letter-spacing: -0.36px;
+                color: #7a7c82;
+            }
+        }
+
+        .rev-body {
+            h3 {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 130%;
+                letter-spacing: -0.36px;
+                color: #ffffff;
+            }
+
+            h4 {
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 135%;
+                letter-spacing: -0.36px;
+                color: #d7d7db;
+            }
+        }
+
+        h5 {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 130%;
+            letter-spacing: -0.36px;
+            color: #ffffff;
+        }
+    }
 }
