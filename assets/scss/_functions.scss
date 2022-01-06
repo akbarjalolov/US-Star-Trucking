@@ -19,6 +19,12 @@ $W: #ffffff;
   line-height: 26px;
   text-align: center;
   letter-spacing: -0.36px;
+  transition: 0.3s all;
+
+  &:hover {
+    background: white;
+    color: #1A1B26;
+  }
 }
 
 .white-btn {

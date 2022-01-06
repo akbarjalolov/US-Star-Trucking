@@ -4,6 +4,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 99;
+    transition: 0.5s all;
         .links {
             a {
             font-weight: bold;
@@ -12,17 +13,43 @@ header {
             letter-spacing: -0.355556px;
             color: $W;
             transition: 0.3s all;
+            border-bottom: 1px solid transparent;
             &:hover {
-                border-bottom: 5px;
-                
+                background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 100%);
+                border-color: white;
             }
+        }
+
+        .nuxt-link-exact-active {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 100%);
+            border-color: white;
         }
     }
     .socials {
         svg {
             margin-left: 6px;
             margin-right: 6px;
+            rect {
+                transition: 0.3s all;
+            }
+
+            path {
+                transition: 0.3s all;
+            }
+            &:hover {
+                rect {
+                    fill-opacity: 1;
+                }
+
+                path {
+                    fill: #28293a;
+                }
+            }
         }
     }
     
+}
+
+.header-changed {
+    background: #28293A;
 }

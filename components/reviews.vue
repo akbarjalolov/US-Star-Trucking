@@ -75,43 +75,71 @@
         </div>
         <div class="col-12">
           <div>
-            <VueSlickCarousel class="reviews-slider" ref="reviews" v-bind="settings">
-              <div class="review-cards" v-for="(item, index) in reviews" :key="index">
-                  <div class="d-flex align-items-center mb-12 rev-head">
+            <VueSlickCarousel
+              class="reviews-slider"
+              ref="reviews"
+              v-bind="settings"
+            >
+              <div
+                class="review-cards"
+                v-for="(item, index) in reviews"
+                :key="index"
+              >
+                <div class="d-flex align-items-center mb-12 rev-head">
                   <div>
-                      <img :src="item.img" alt="">
+                    <img :src="item.img" alt="" />
                   </div>
                   <div>
-                      <h6>
-                          {{item.firstName}}
-                      </h6>
-                      <p>
-                          {{item.from}}
-                      </p>
+                    <h6>
+                      {{ item.firstName }}
+                    </h6>
+                    <p>
+                      {{ item.from }}
+                    </p>
                   </div>
+                </div>
+                <div class="rev-body mb-16">
+                  <h3 class="mb-8">
+                    {{ item.title }}
+                  </h3>
+                  <h4>
+                    {{ item.full }}
+                  </h4>
+                </div>
+                <div
+                  class="
+                    rev-bottom
+                    d-flex
+                    align-items-center
+                    justify-content-between
+                  "
+                >
+                  <div>
+                    <h5>
+                      {{ item.rating }}
+                    </h5>
+                    <svg
+                      v-for="(stars, index) in item.stars"
+                      :key="index"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M2.5918 7.56085L3.31581 8.08962L3.60784 8.3029L3.49672 8.64704L2.7518 10.954L2.74992 10.9598L2.74988 10.9598C2.66388 11.2154 2.66279 11.492 2.74678 11.7483C2.83077 12.0046 2.99534 12.2269 3.21596 12.382L3.22545 12.3887L3.22537 12.3888C3.44218 12.5489 3.70493 12.6347 3.97445 12.6334C4.24397 12.632 4.50584 12.5436 4.72105 12.3813L4.72567 12.3779L4.72569 12.3779L6.64366 10.9663L6.93982 10.7483L7.23613 10.9661L9.15465 12.376L9.15481 12.3761C9.37258 12.5363 9.63552 12.6233 9.90585 12.6246C10.1762 12.626 10.44 12.5415 10.6593 12.3835C10.8786 12.2254 11.0421 12.0019 11.1264 11.745C11.2107 11.4882 11.2113 11.2112 11.1283 10.954L10.3833 8.64704L10.2722 8.3029L10.5643 8.08962L12.5255 6.65722L2.5918 7.56085ZM2.5918 7.56085H2.59266L1.35673 6.65722C1.13925 6.49822 0.97758 6.27455 0.894814 6.01817C0.812047 5.76179 0.812416 5.48582 0.895869 5.22966C0.979322 4.97351 1.14159 4.75027 1.35949 4.59185C1.57731 4.43349 1.83959 4.34798 2.10889 4.34753C2.109 4.34753 2.1091 4.34753 2.1092 4.34753L4.51572 4.34753H4.8804L4.99182 4.00028L5.72297 1.72143L5.72301 1.72129C5.80566 1.46346 5.96805 1.23853 6.18678 1.07895L5.89209 0.675025L6.18678 1.07895C6.40551 0.919365 6.66928 0.833374 6.94003 0.833374C7.21079 0.833374 7.47455 0.919366 7.69329 1.07895L7.98798 0.675025L7.69329 1.07895C7.91202 1.23853 8.07441 1.46346 8.15706 1.7213L8.1571 1.72143L8.88825 4.00028L8.99966 4.34753H9.36435L11.7731 4.34753C11.7732 4.34753 11.7733 4.34753 11.7734 4.34753C12.0427 4.34798 12.305 4.43349 12.5228 4.59185C12.7407 4.75027 12.903 4.9735 12.9864 5.22966C13.0699 5.48582 13.0702 5.7618 12.9875 6.01817C12.9047 6.27447 12.7431 6.49807 12.5258 6.65707L2.5918 7.56085Z"
+                        fill="#FFDF00"
+                        stroke="#FDCC0D"
+                      />
+                    </svg>
                   </div>
-                  <div class="rev-body mb-16">
-                      <h3 class="mb-8">
-                          {{item.title}}
-                      </h3>
-                      <h4>
-                          {{item.full}}
-                      </h4>
+                  <div>
+                    <a :href="item.srcLink" target="_blank">
+                      <img :src="item.source" alt="" />
+                    </a>
                   </div>
-                  <div class="rev-bottom d-flex align-items-center justify-content-between">
-                    <div>
-                        <h5>
-                        {{item.rating}}
-                        </h5>
-                        <svg v-for="(stars, index) in item.stars" :key="index" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M2.5918 7.56085L3.31581 8.08962L3.60784 8.3029L3.49672 8.64704L2.7518 10.954L2.74992 10.9598L2.74988 10.9598C2.66388 11.2154 2.66279 11.492 2.74678 11.7483C2.83077 12.0046 2.99534 12.2269 3.21596 12.382L3.22545 12.3887L3.22537 12.3888C3.44218 12.5489 3.70493 12.6347 3.97445 12.6334C4.24397 12.632 4.50584 12.5436 4.72105 12.3813L4.72567 12.3779L4.72569 12.3779L6.64366 10.9663L6.93982 10.7483L7.23613 10.9661L9.15465 12.376L9.15481 12.3761C9.37258 12.5363 9.63552 12.6233 9.90585 12.6246C10.1762 12.626 10.44 12.5415 10.6593 12.3835C10.8786 12.2254 11.0421 12.0019 11.1264 11.745C11.2107 11.4882 11.2113 11.2112 11.1283 10.954L10.3833 8.64704L10.2722 8.3029L10.5643 8.08962L12.5255 6.65722L2.5918 7.56085ZM2.5918 7.56085H2.59266L1.35673 6.65722C1.13925 6.49822 0.97758 6.27455 0.894814 6.01817C0.812047 5.76179 0.812416 5.48582 0.895869 5.22966C0.979322 4.97351 1.14159 4.75027 1.35949 4.59185C1.57731 4.43349 1.83959 4.34798 2.10889 4.34753C2.109 4.34753 2.1091 4.34753 2.1092 4.34753L4.51572 4.34753H4.8804L4.99182 4.00028L5.72297 1.72143L5.72301 1.72129C5.80566 1.46346 5.96805 1.23853 6.18678 1.07895L5.89209 0.675025L6.18678 1.07895C6.40551 0.919365 6.66928 0.833374 6.94003 0.833374C7.21079 0.833374 7.47455 0.919366 7.69329 1.07895L7.98798 0.675025L7.69329 1.07895C7.91202 1.23853 8.07441 1.46346 8.15706 1.7213L8.1571 1.72143L8.88825 4.00028L8.99966 4.34753H9.36435L11.7731 4.34753C11.7732 4.34753 11.7733 4.34753 11.7734 4.34753C12.0427 4.34798 12.305 4.43349 12.5228 4.59185C12.7407 4.75027 12.903 4.9735 12.9864 5.22966C13.0699 5.48582 13.0702 5.7618 12.9875 6.01817C12.9047 6.27447 12.7431 6.49807 12.5258 6.65707L2.5918 7.56085Z" fill="#FFDF00" stroke="#FDCC0D"/>
-</svg>
-
-                    </div>
-                    <div>
-                        <img :src="item.source" alt="">
-                    </div>
-                  </div>
+                </div>
               </div>
             </VueSlickCarousel>
           </div>
@@ -130,6 +158,8 @@ export default {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
+        infinite: true,
+        arrows: false,
         responsive: [
           {
             breakpoint: 1024,
@@ -167,8 +197,9 @@ export default {
           rating: "5.0",
           stars: 5,
           source: "images/transport-reviews.png",
+          srcLink: "google.com",
         },
-         {
+        {
           img: "images/profile-pic.png",
           firstName: "Emily Thorne",
           from: "Michigan",
@@ -177,8 +208,9 @@ export default {
           rating: "5.0",
           stars: 5,
           source: "images/transport-reviews.png",
+          srcLink: "google.com",
         },
-         {
+        {
           img: "images/profile-pic.png",
           firstName: "Emily Thorne",
           from: "Michigan",
@@ -187,8 +219,9 @@ export default {
           rating: "5.0",
           stars: 5,
           source: "images/transport-reviews.png",
+          srcLink: "google.com",
         },
-         {
+        {
           img: "images/profile-pic.png",
           firstName: "Emily Thorne",
           from: "Michigan",
@@ -197,6 +230,7 @@ export default {
           rating: "5.0",
           stars: 5,
           source: "images/transport-reviews.png",
+          srcLink: "google.com",
         },
       ],
     };

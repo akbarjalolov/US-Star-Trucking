@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-        <h1 class="mb-8">Shipping any Vehicle,  Anywhere, Any Time </h1>
+        <h1 class="mb-8" ref="mainText">Shipping any Vehicle,  Anywhere, Any Time </h1>
         <h6 class="mb-16">As Soon As Possible</h6>
         <button class="white-btn">
             GET A QUOTE
