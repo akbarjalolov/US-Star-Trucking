@@ -47,13 +47,14 @@
       <h6 class="mb-16">As Soon As Possible</h6>
 
     </typewriter>
-        <button 
-        data-aos="fade-left"
+    <div  data-aos="fade-left"
         data-aos-delay="3000"
-        data-aos-once="true"
+        data-aos-once="true">
+        <button 
          class="white-btn">
             GET A QUOTE
         </button>
+        </div>
         </div>
         </div>
         </div>

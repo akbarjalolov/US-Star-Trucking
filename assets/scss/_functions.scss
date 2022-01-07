@@ -39,6 +39,14 @@ $W: #ffffff;
   line-height: 26px;
   text-align: center;
   letter-spacing: -0.36px;
+  transition: 0.3s all;
+  border: 1px solid transparent;
+
+  &:hover {
+    background: $bg;
+    color: white;
+    border: 1px solid $W;
+  }
 }
 //!<Адаптивное свойство>====================================================================================
 @mixin adaptiv($indentType, $pcSize, $mobSize, $important: false) {
