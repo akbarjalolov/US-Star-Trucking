@@ -40,7 +40,6 @@
                 <div class="col-12">
         
         <typewriter
-      :replace="replace"
       :type-interval="50"
       :replace-interval="1000"
     >
@@ -85,15 +84,13 @@ export default {
   data() {
     return {
       video: "static/images/video.mp4",
-      replace: [
-      { from: "Vue", to: "React?" },
-      { from: "Typewriter React?", to: "Joking, it`s Vue!" },
-    ],
       settings: {
         dots: true,
         dotsClass: "slick-dots custom-dot-class",
         infinite: true,
-        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
@@ -119,11 +116,7 @@ export default {
       },
   },
   mounted() {
-    console.log(this.$refs.mainSlider);
-    let dots = document.querySelectorAll('.slick-dots');
-    console.log(dots);
     AOS.init();
-
   },
 
 };
