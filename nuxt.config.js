@@ -1,5 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  ssr: false,
   head: {
     title: 'US Star Trucking',
     htmlAttrs: {
@@ -27,7 +28,7 @@ export default {
     { src: '~/plugins/slider.js' },
     { src: '~/plugins/vmask.js' },
     { src: '~/plugins/vuelidate.js' },
-    { src: '~/plugins/3dSlider.js', ssr: false },
+    { src: '~/plugins/3dSlider.js' },
     { src: '~/plugins/Lottie.js',mode: "client" },
     { src: '~/assets/js/scripts.js' },
   ],
