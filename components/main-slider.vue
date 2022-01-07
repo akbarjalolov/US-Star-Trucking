@@ -1,19 +1,7 @@
 <template>
   <div class="main-slider">
     <div class="gradient d-flex align-items-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-        <h1 class="mb-8" ref="mainText">Shipping any Vehicle,  Anywhere, Any Time </h1>
-        <h6 class="mb-16">As Soon As Possible</h6>
-        <button class="white-btn">
-            GET A QUOTE
-        </button>
-        </div>
-        </div>
-        </div>
-    </div>
-    <div class="buttons">
+       <div class="buttons">
       <svg
       @click="prev"
       class="prev"
@@ -47,6 +35,32 @@
         />
       </svg>
     </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+        
+        <typewriter
+      :replace="replace"
+      :type-interval="50"
+      :replace-interval="1000"
+    >
+      <h1 class="mb-8">Shipping any Vehicle,  Anywhere, Any Time </h1>
+      <h6 class="mb-16">As Soon As Possible</h6>
+
+    </typewriter>
+        <button 
+        data-aos="fade-left"
+        data-aos-delay="3000"
+        data-aos-once="true"
+         class="white-btn">
+            GET A QUOTE
+        </button>
+        </div>
+        </div>
+        </div>
+       
+    </div>
+    
     <VueSlickCarousel v-bind="settings" ref="mainSlider" class="main-slider">
       <div v-for="(item, index) in mainPics" :key="index">
         <video autoplay muted loop v-if="item.type === 'video'">
@@ -60,10 +74,21 @@
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Typewriter from "typewriter-vue";
 export default {
+   components: {
+    Typewriter,
+  },
+  
   data() {
     return {
       video: "static/images/video.mp4",
+      replace: [
+      { from: "Vue", to: "React?" },
+      { from: "Typewriter React?", to: "Joking, it`s Vue!" },
+    ],
       settings: {
         dots: true,
         dotsClass: "slick-dots custom-dot-class",
@@ -97,6 +122,8 @@ export default {
     console.log(this.$refs.mainSlider);
     let dots = document.querySelectorAll('.slick-dots');
     console.log(dots);
+    AOS.init();
+
   },
 
 };

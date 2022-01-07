@@ -2,7 +2,12 @@
   <div class="steps pt-54 pb-54">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12"
+         data-aos="fade-up"
+        data-aos-once="true"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="600"
+        >
           <h1 class="section-titles">
             <svg
               width="48"
@@ -22,7 +27,10 @@
           </h1>
         </div>
         <div class="col-12 mt-69" v-for="(item, index) in steps" :key="index">
-          <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center"  data-aos="fade-up"
+        data-aos-once="true"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="600">
             <div>
               <h2 class="mr-16">{{ index + 1 }}</h2>
             </div>

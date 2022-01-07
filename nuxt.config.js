@@ -27,6 +27,7 @@ export default {
     { src: '~/plugins/slider.js' },
     { src: '~/plugins/vmask.js' },
     { src: '~/plugins/vuelidate.js' },
+    // { src: '~/plugins/typeWriter.js' },
     { src: '~/plugins/Lottie.js',mode: "client" },
     { src: '~/assets/js/scripts.js' },
   ],

@@ -2,7 +2,12 @@
   <div class="map mt-54 mb-65 pb-65">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-12 form">
+        <div class="col-lg-4 col-12 form" 
+        data-aos="fade-right"
+         data-aos-once="true"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="600"
+        >
             <div class=" mb-48" style="margin-left: -4px;">
                  <h1 class="section-titles">
             <svg
@@ -127,7 +132,11 @@
             CONTINUE
           </button>
         </div>
-        <div class="offset-lg-2 col-lg-6 col-12">
+        <div class="offset-lg-2 col-lg-6 col-12"
+         data-aos="fade-left"
+         data-aos-once="true"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="600">
             <div class=" mb-48" style="margin-left: -4px;">
                  <h1 class="section-titles">
             <svg
