@@ -54,3 +54,103 @@ header {
     background: #28293A;
     border-bottom: 1px solid #E7E5EA;
 }
+
+footer {
+    background-image: url(/images/navigate1.svg);
+    background-repeat: no-repeat;
+    background-position: 88%;
+    background-size: contain;
+    h5 {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 130%;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+
+    ul li a {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 130%;
+        letter-spacing: -0.3px;
+        color: #fff;
+        margin-bottom: 16px;
+        transition: 0.3s all;
+        &:hover {
+            color: #fff;
+            opacity: 0.6;
+        }
+    }
+
+    .form {
+        .relative svg {
+            top: 50px !important;
+            left: 10px !important;
+        }
+
+        button {
+           padding: 7px 28px;
+        }
+
+        input {
+            width: 95%;
+            height: 44px;
+        }
+    }
+
+    .socials {
+        svg {
+            margin-right: 12px;
+            rect {
+                transition: 0.3s all;
+            }
+
+            path {
+                transition: 0.3s all;
+            }
+            &:hover {
+                rect {
+                    fill-opacity: 1;
+                }
+
+                path {
+                    fill: #28293a;
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+
+    p {
+        font-weight: normal;
+font-size: 14px;
+line-height: 130%;
+letter-spacing: -0.3px;
+color: #FFFFFF;
+    }
+
+    a {
+        font-weight: normal;
+font-size: 14px;
+line-height: 130%;
+letter-spacing: -0.3px;
+color: #FFFFFF;
+transition: 0.3s all;
+&:hover {
+    opacity: 0.6;
+}
+    }
+}
+
+
+}
+
+
+.logo {
+    transition: 0.3s all;
+
+&:hover {
+  opacity: 0.6;
+}
+}

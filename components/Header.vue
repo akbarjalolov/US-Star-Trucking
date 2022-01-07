@@ -4,7 +4,7 @@
       <div class="row align-items-center justify-content-between pt-35 pb-35">
         <div class="logo">
           <nuxt-link to="/">
-            <img src="@/static/images/logo.svg" alt="" />
+            <img src="@/static/images/logo.svg" class="logo" alt="" />
           </nuxt-link>
         </div>
         <div class="links">
@@ -115,7 +115,7 @@
           </a>
           <a href=" https://www.linkedin.com/company/usstartruckingllc" target="_blank">
            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="28" height="28" rx="6" fill="white" fill-opacity="0.1"/>
+<rect width="28" height="28" rx="6" fill="white" fill-opacity="0.2"/>
 <path d="M9.60001 22H6.2V11.3H9.60001V22ZM7.9 9.8C6.8 9.8 6 9 6 7.9C6 6.8 6.9 6 7.9 6C9 6 9.8 6.8 9.8 7.9C9.8 9 9 9.8 7.9 9.8ZM22 22H18.6V16.2C18.6 14.5 17.9 14 16.9 14C15.9 14 14.9 14.8 14.9 16.3V22H11.5V11.3H14.7V12.8C15 12.1 16.2 11 17.9 11C19.8 11 21.8 12.1 21.8 15.4V22H22Z" fill="white"/>
 </svg>
 
