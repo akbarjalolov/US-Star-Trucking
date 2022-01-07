@@ -316,51 +316,52 @@
         padding: 16px;
 
         h3 {
-font-weight: bold;
-font-size: 24px;
-line-height: 130%;
-letter-spacing: -0.36px;
-color: #FFFFFF;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 130%;
+            letter-spacing: -0.36px;
+            color: #ffffff;
         }
 
         p {
             margin-top: 12px;
             margin-bottom: 16px;
             font-weight: normal;
-font-size: 18px;
-line-height: 140%;
-letter-spacing: -0.36px;
-color: #D7D7DB;
-overflow: hidden;
-display: inline-block;
-text-overflow: ellipsis;
-display: -webkit-box;
--webkit-line-clamp: 3;
--webkit-box-orient: vertical;
-
+            font-size: 18px;
+            line-height: 140%;
+            letter-spacing: -0.36px;
+            color: #d7d7db;
+            overflow: hidden;
+            display: inline-block;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
         }
 
         h4 {
             font-weight: 500;
-font-size: 16px;
-line-height: 130%;
-letter-spacing: -0.36px;
-color: #FFFFFF;
-margin-left: 8px;
-
+            font-size: 16px;
+            line-height: 130%;
+            letter-spacing: -0.36px;
+            color: #ffffff;
+            margin-left: 8px;
         }
 
         h5 {
             font-weight: normal;
-font-size: 14px;
-line-height: 130%;
-letter-spacing: -0.36px;
-color: #7A7C82;
-margin-left: 8px;
+            font-size: 14px;
+            line-height: 130%;
+            letter-spacing: -0.36px;
+            color: #7a7c82;
+            margin-left: 8px;
+        }
+        transition: 0.3s;
+        &:hover {
+            transform: translateX(-5px);
         }
     }
 }
-
 
 .prev-next-arrows {
     svg {
@@ -368,10 +369,10 @@ margin-left: 8px;
         path {
             transition: 0.3s all;
         }
-     &:hover {
-        path {
-            fill-opacity: 1;
+        &:hover {
+            path {
+                fill-opacity: 1;
+            }
         }
     }
-}
 }
