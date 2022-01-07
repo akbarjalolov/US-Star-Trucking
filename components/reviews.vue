@@ -25,7 +25,7 @@
                 Reviews
               </h1>
             </div>
-            <div>
+            <div class="prev-next-arrows">
               <svg
                 @click="prew()"
                 width="48"
