@@ -376,3 +376,198 @@
         }
     }
 }
+
+.map {
+    path {
+        &:hover {
+            transform: scale();
+        }
+    }
+}
+
+.about-us {
+    .img {
+        background-position: center;
+        background-size: cover;
+        height: 70vh;
+    }
+
+    .gradient {
+        background: rgba(26, 27, 38, 0.8);
+        height: 100%;
+        .container {
+            height: 100%;
+            div {
+                height: 100%;
+            }
+        }
+    }
+
+    p {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.36px;
+        color: #d7d7db;
+        mix-blend-mode: normal;
+    }
+
+    .numbers {
+        background: $secondBg;
+
+        h6 {
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 36px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        p {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 21px;
+            text-align: center;
+            color: #e7e5ea;
+        }
+    }
+
+    .vision-cards {
+        .cards {
+            background: #363749;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-sizing: border-box;
+            backdrop-filter: blur(30px);
+            border-radius: 10px;
+            min-height: 581px;
+            transition: 0.3s all;
+
+            .back {
+                transition: 0.3s all;
+                opacity: 0;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+            &:hover {
+                transform: translateY(-4px);
+                .back {
+                    opacity: 1;
+                }
+            }
+
+        }
+
+        h6 {
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 48px;
+            text-align: center;
+            letter-spacing: -1.6px;
+            color: #ffffff;
+        }
+
+        p {
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 23px;
+            text-align: center;
+
+            color: #ffffff;
+        }
+
+        ul {
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 23px;
+            text-align: center;
+
+            color: #ffffff;
+        }
+
+        img {
+            width: 244px;
+        }
+
+        
+    }
+}
+
+.modal-lg {
+    width: 31%;
+
+    .card {
+        background: #fef9ef;
+        border-radius: 24px;
+        color: #1a1b26;
+        position: relative;
+        .logo-rounded {
+            position: absolute;
+            top: 0;
+            transform: translate(119%, -50%);
+        }
+
+        h5 {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+        }
+
+        h6 {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: center;
+        }
+
+        .email {
+            position: relative;
+            svg {
+                position: absolute;
+                z-index: 1;
+                top: 8px;
+                left: 10px;
+            }
+            input {
+                padding-left: 40px;
+                background: rgba(255, 255, 255, 0.5);
+                border: 1px solid #28293a;
+                box-sizing: border-box;
+                border-radius: 8px;
+                color: #1a1b26;
+                font-weight: 400;
+                height: 44px;
+            }
+        }
+        button {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 21px;
+            color: #ffffff;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            transition: 0.3;
+            &:hover {
+                color: #1a1b26;
+                border: 1px solid #1a1b26;
+            }
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: center;
+            color: #878787;
+            a {
+                color: #28293a;
+                transition: 0.3s all;
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+}
