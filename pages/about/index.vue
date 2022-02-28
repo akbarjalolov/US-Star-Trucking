@@ -492,8 +492,9 @@
       </div>
     </div>
     <team />
-    <reviews/>
     <partners/>
+
+    <reviews/>
   </div>
 </template>
 

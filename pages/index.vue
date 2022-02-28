@@ -65,7 +65,7 @@ export default {
     
     AOS.init();
 
-    setTimeout(() => {this.discount = true}, 10000)
+    setTimeout(() => {this.discount = true}, 1000)
   },
 
 };

@@ -456,7 +456,6 @@
                     opacity: 1;
                 }
             }
-
         }
 
         h6 {
@@ -489,8 +488,6 @@
         img {
             width: 244px;
         }
-
-        
     }
 }
 
@@ -505,7 +502,8 @@
         .logo-rounded {
             position: absolute;
             top: 0;
-            transform: translate(119%, -50%);
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
 
         h5 {
@@ -567,6 +565,85 @@
                 &:hover {
                     opacity: 0.6;
                 }
+            }
+        }
+    }
+}
+
+
+.our-team {
+background: #28293A;
+
+    h2 {
+        font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+
+letter-spacing: -1.6px;
+
+color: #FFFFFF;
+    }
+
+    .team-cards {
+        transition: 0.3s all;
+        
+        &:hover {
+            transform: translatey(-4px);
+            background: #525367;
+border: 1px solid rgba(255, 255, 255, 0.6);
+
+        .bg-effect {
+            opacity: 1;
+        }
+        }
+
+        background: #363749;
+border: 1px solid rgba(255, 255, 255, 0.1);
+box-sizing: border-box;
+backdrop-filter: blur(30px);
+border-radius: 10px;
+padding: 24px 0;
+        .ava {
+            border-radius: 50%;
+            border: 1px solid white;
+            width: 124px;
+            height: 124px;
+        }
+
+        .bg-effect {
+            position: absolute;
+            top: 0;
+            right: 0;
+            opacity: 0;
+        }
+
+        h6 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 130%;
+            text-align: center;
+            letter-spacing: -0.36px;
+            color: #FFFFFF;
+        }
+        
+        p {
+            font-weight: normal;
+font-size: 14px;
+line-height: 130%;
+text-align: center;
+letter-spacing: -0.36px;
+color: #7A7C82;
+        }
+
+        .socials {
+            a, svg {
+                width: 28px;
+                height: 28px;
+            }
+
+            a {
+                margin: 0 2px;
             }
         }
     }

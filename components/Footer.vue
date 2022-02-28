@@ -114,7 +114,7 @@
                 />
               </svg>
             </a>
-            <a href="" target="_blank">
+            <!-- <a href="" target="_blank">
               <svg
                 width="36"
                 height="36"
@@ -134,7 +134,7 @@
                   fill="white"
                 />
               </svg>
-            </a>
+            </a> -->
             <a href=" https://twitter.com/usstartrucking" target="_blank">
               <svg
                 width="36"

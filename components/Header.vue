@@ -72,7 +72,7 @@
             />
           </svg>
          </a>
-          <a href="" target="_blank">
+          <!-- <a href="" target="_blank">
              <svg
             width="28"
             height="28"
@@ -92,7 +92,7 @@
               fill="white"
             />
           </svg>
-          </a>
+          </a> -->
           <a href=" https://twitter.com/usstartrucking" target="_blank">
             <svg
             width="28"
@@ -124,7 +124,9 @@
           <!-- TODO: linkedln should be added -->
         </div>
         <div>
+          <a  target="_blank" href="https://apps.msgplane.com/quote/usst?id=24bc1d17-a5e2-45a0-8d54-a87a9f532e88">
           <button class="dark-btn">GET A QUOTE</button>
+          </a>
         </div>
       </div>
       </div>
