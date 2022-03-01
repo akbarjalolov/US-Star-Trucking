@@ -25,28 +25,6 @@
             border-color: white;
         }
     }
-    .socials {
-        svg {
-            margin-left: 6px;
-            margin-right: 6px;
-            rect {
-                transition: 0.3s all;
-            }
-
-            path {
-                transition: 0.3s all;
-            }
-            &:hover {
-                rect {
-                    fill-opacity: 1;
-                }
-
-                path {
-                    fill: #28293a;
-                }
-            }
-        }
-    }
     
 }
 
@@ -97,29 +75,6 @@ footer {
             height: 44px;
         }
     }
-
-    .socials {
-        svg {
-            margin-right: 12px;
-            rect {
-                transition: 0.3s all;
-            }
-
-            path {
-                transition: 0.3s all;
-            }
-            &:hover {
-                rect {
-                    fill-opacity: 1;
-                }
-
-                path {
-                    fill: #28293a;
-                }
-            }
-        }
-    }
-
     .footer-bottom {
 
     p {

@@ -15,7 +15,7 @@
               v-for="(item, index) in headerLink"
               :key="index"
             >
-              <nuxt-link :to="item.link">
+              <nuxt-link :to="`/${item.link}`">
                 {{ item.text }}
               </nuxt-link>
             </li>

@@ -89,7 +89,7 @@
       <client-only placeholder="Loading...">
         <carousel-3d v-bind="settings" ref="blogSlides" class="blog-slides">
           <slide :index="index" v-for="(item, index) in blogInfo" :key="index">
-            <nuxt-link :to="item.link">
+            <nuxt-link :to="`/${item.link}`">
               <h3>{{ item.title }}</h3>
               <p>
                 {{ item.description }}

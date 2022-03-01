@@ -634,21 +634,39 @@
             letter-spacing: -0.36px;
             color: #7a7c82;
         }
+    }
+}
+.socials {
+    a {
+        color: #1a1b26;
+    }
+    svg {
+        width: 28px;
+        height: 28px;
+        transition: 0.3s all;
 
-        .socials {
-            a,
-            svg {
-                width: 28px;
-                height: 28px;
+        rect {
+            transition: 0.3s all;
+        }
+
+        path {
+            transition: 0.3s all;
+        }
+        &:hover {
+            rect {
+                fill-opacity: 1;
             }
 
-            a {
-                margin: 0 2px;
+            path {
+                fill: #28293a;
             }
         }
     }
-}
 
+    a {
+        margin: 0 2px;
+    }
+}
 .faq {
     h2 {
         font-weight: bold;
@@ -719,17 +737,14 @@
         box-sizing: border-box;
         backdrop-filter: blur(30px);
         border-radius: 10px;
-
-       
     }
-    
+
     h2 {
         font-weight: bold;
         font-size: 36px;
         line-height: 48px;
         letter-spacing: -1.6px;
-        color: #FFFFFF;
-
+        color: #ffffff;
     }
 
     h5 {
@@ -737,7 +752,7 @@
         font-size: 28px;
         line-height: 48px;
         letter-spacing: -1.6px;
-        color: #FFFFFF;
+        color: #ffffff;
     }
 
     h6 {
@@ -745,7 +760,7 @@
         font-size: 24px;
         line-height: 135%;
         letter-spacing: -0.36px;
-        color: #D7D7DB;
+        color: #d7d7db;
     }
 
     p {
@@ -753,7 +768,7 @@
         font-size: 18px;
         line-height: 135%;
         letter-spacing: -0.36px;
-        color: #D7D7DB;
+        color: #d7d7db;
     }
 }
 
@@ -763,4 +778,156 @@
     img {
         border-radius: 12px;
     }
+}
+
+.contacts {
+    background: $secondBg;
+    .contact-card {
+        background: #ffffff;
+        border-radius: 16px;
+
+        h5 {
+            color: #1a1b26;
+        }
+
+        p {
+            color: #1a1b26;
+        }
+
+        input {
+            background: #ffffff;
+            border: 1px solid #28293a;
+            box-sizing: border-box;
+            border-radius: 8px;
+            padding: 12px 12px 12px 44px;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: -0.36px;
+            color: #28293a;
+        }
+
+        textarea {
+            background: #ffffff;
+            border: 1px solid #28293a;
+            box-sizing: border-box;
+            border-radius: 8px;
+            padding: 12px 12px 12px 44px;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: -0.36px;
+            color: #28293a;
+        }
+
+        .relative {
+            svg {
+                position: absolute;
+                top: 7px;
+                z-index: 1;
+                left: 12px;
+            }
+        }
+
+        button {
+            background: #28293a;
+            border: 1px solid transparent;
+            box-sizing: border-box;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 21px;
+            text-align: center;
+            color: #ffffff;
+            width: 100%;
+
+            &:hover {
+                background: transparent;
+                border: 1px solid #28293a;
+                color: #28293a;
+            }
+        }
+    }
+
+    a {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 135%;
+        color: #ffffff;
+    }
+}
+
+.blog {
+    .blog-cards {
+        background: #363749;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-sizing: border-box;
+        backdrop-filter: blur(30px);
+        border-radius: 10px;
+        width: 100%;
+        min-height: 423px;
+        transition: 0.3s all;
+        .logo-bg {
+            position: absolute;
+            right: 0;
+            width: 88px;
+            height: 82px;
+            opacity: 0;
+            transition: 0.3s all;
+        }
+
+        &:hover {
+            background: #525367;
+            transform: translateY(-4px);
+            .logo-bg {
+                opacity: 1;
+            }
+        }
+    }
+
+    .image {
+        height: 200px;
+        width: 100%;
+        background-size: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .info {
+        padding: 8px 16px 20px 16px;
+        position: relative;
+
+        p {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 140%;
+            color: #ffffff;
+        }
+
+        h6 {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 130%;
+            letter-spacing: -0.36px;
+            color: #ffffff;
+        }
+    }
+
+    span {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 135%;
+        color: #e7e5ea;
+        svg {
+            margin-top: -3px;
+        }
+    }
+}
+
+
+.blog-single {
+    img {
+    border-radius: 10px;
+}
+
 }

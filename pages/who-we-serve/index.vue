@@ -144,8 +144,8 @@ Have we got your attention about our military car shipping service? Then keep re
       </div>
     </div>
   </div>
+    <reviews/>
     <faq/>
-
   </div>
 </template>
 
@@ -154,12 +154,14 @@ import usMap from "@/components/us-map.vue"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Faq from '../../components/faq.vue';
+import Reviews from '../../components/reviews.vue';
 export default {
   layout: "pages",
 
   components: {
     usMap,
-    Faq
+    Faq,
+    Reviews
   },
 
   mounted(){

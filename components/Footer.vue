@@ -23,7 +23,7 @@
               </h5>
               <ul>
                 <li v-for="(items, indexes) in item.childs" :key="indexes">
-                  <nuxt-link :to="items.link">
+                  <nuxt-link :to="`/${items.link}`">
                     {{ items.title }}
                   </nuxt-link>
                 </li>
