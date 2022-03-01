@@ -117,6 +117,7 @@
         </div>
       </div>
     </div>
+
     <div class="numbers pt-54 pb-54">
       <div class="container">
         <div class="row">
@@ -492,9 +493,9 @@
       </div>
     </div>
     <team />
-    <partners/>
-
+    <faq/>
     <reviews/>
+    <partners/>
   </div>
 </template>
 
@@ -504,12 +505,14 @@ import "aos/dist/aos.css";
 import team from "@/components/team";
 import reviews from "@/components/reviews.vue";
 import partners from "@/components/partners.vue";
+import Faq from '../../components/faq.vue';
 export default {
   layout: "pages",
   components: {
     team,
     reviews,
-    partners
+    partners,
+    Faq
   },
 
   data() {

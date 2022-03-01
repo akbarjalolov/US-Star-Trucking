@@ -570,40 +570,39 @@
     }
 }
 
-
 .our-team {
-background: #28293A;
+    background: #28293a;
 
     h2 {
         font-weight: bold;
-font-size: 36px;
-line-height: 48px;
-/* identical to box height, or 133% */
+        font-size: 36px;
+        line-height: 48px;
+        /* identical to box height, or 133% */
 
-letter-spacing: -1.6px;
+        letter-spacing: -1.6px;
 
-color: #FFFFFF;
+        color: #ffffff;
     }
 
     .team-cards {
         transition: 0.3s all;
-        
+
         &:hover {
             transform: translatey(-4px);
             background: #525367;
-border: 1px solid rgba(255, 255, 255, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.6);
 
-        .bg-effect {
-            opacity: 1;
-        }
+            .bg-effect {
+                opacity: 1;
+            }
         }
 
         background: #363749;
-border: 1px solid rgba(255, 255, 255, 0.1);
-box-sizing: border-box;
-backdrop-filter: blur(30px);
-border-radius: 10px;
-padding: 24px 0;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-sizing: border-box;
+        backdrop-filter: blur(30px);
+        border-radius: 10px;
+        padding: 24px 0;
         .ava {
             border-radius: 50%;
             border: 1px solid white;
@@ -624,20 +623,21 @@ padding: 24px 0;
             line-height: 130%;
             text-align: center;
             letter-spacing: -0.36px;
-            color: #FFFFFF;
+            color: #ffffff;
         }
-        
+
         p {
             font-weight: normal;
-font-size: 14px;
-line-height: 130%;
-text-align: center;
-letter-spacing: -0.36px;
-color: #7A7C82;
+            font-size: 14px;
+            line-height: 130%;
+            text-align: center;
+            letter-spacing: -0.36px;
+            color: #7a7c82;
         }
 
         .socials {
-            a, svg {
+            a,
+            svg {
                 width: 28px;
                 height: 28px;
             }
@@ -646,5 +646,121 @@ color: #7A7C82;
                 margin: 0 2px;
             }
         }
+    }
+}
+
+.faq {
+    h2 {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -1.6px;
+        color: #ffffff;
+    }
+
+    .accordion {
+        .card {
+            background: transparent;
+            margin-bottom: 20px;
+        }
+
+        .card-header {
+            background: transparent;
+            padding: 0;
+            background: #363749;
+            box-sizing: border-box;
+            backdrop-filter: blur(30px);
+            border-radius: 10px;
+            .btn {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 130%;
+                letter-spacing: -0.36px;
+                text-transform: uppercase;
+                color: #ffffff;
+            }
+
+            .collapsed {
+                background: #363749;
+                box-sizing: border-box;
+                backdrop-filter: blur(30px);
+                border-radius: 10px;
+            }
+
+            .not-collapsed {
+                background: #525367;
+                border-bottom: none;
+                border-radius: 10px;
+                box-sizing: border-box;
+                backdrop-filter: blur(30px);
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+            }
+        }
+    }
+    .card-body {
+        background: #525367;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+        border-top: none;
+        box-sizing: border-box;
+        backdrop-filter: blur(30px);
+        border-radius: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+}
+
+.common {
+    .wrapper {
+        background: #363749;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-sizing: border-box;
+        backdrop-filter: blur(30px);
+        border-radius: 10px;
+
+       
+    }
+    
+    h2 {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -1.6px;
+        color: #FFFFFF;
+
+    }
+
+    h5 {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 48px;
+        letter-spacing: -1.6px;
+        color: #FFFFFF;
+    }
+
+    h6 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 135%;
+        letter-spacing: -0.36px;
+        color: #D7D7DB;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 135%;
+        letter-spacing: -0.36px;
+        color: #D7D7DB;
+    }
+}
+
+.how-it-works {
+    background: $secondBg;
+
+    img {
+        border-radius: 12px;
     }
 }

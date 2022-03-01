@@ -191,10 +191,10 @@
               © 2021 US Star Trucking. All rights reserved.
             </p>
             <div>
-            <nuxt-link class="mr-20" to="">
+            <nuxt-link class="mr-20" to="/privacy-policy">
               Privacy Policy
             </nuxt-link>
-            <nuxt-link to="">
+            <nuxt-link to="/terms-and-conditions">
               Terms & Conditions
             </nuxt-link>
             </div>

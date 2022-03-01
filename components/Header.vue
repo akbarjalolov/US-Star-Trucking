@@ -1,8 +1,8 @@
 <template>
-  <header ref="header">
+  <header class="header" ref="header">
     <div class="container">
       <div class="row ">
-        <div class="col-12 d-flex align-items-center justify-content-between pt-35 pb-35">
+        <div class="col-12 d-flex align-items-center justify-content-between pt-25 pb-25">
         <div class="logo">
           <nuxt-link to="/">
             <img src="@/static/images/logo.svg" class="logo" alt="" />
@@ -11,7 +11,7 @@
         <div class="links">
           <ul class="d-flex">
             <li
-              class="pr-18 pl-18"
+              class="pr-12 pl-12"
               v-for="(item, index) in headerLink"
               :key="index"
             >
@@ -145,10 +145,11 @@ export default {
       activeMenu: false,
       headerLink: [
         { link: "about", text: "About Us", exact: true },
-        { link: "team", text: "Our Team" },
-        { link: "who-uses-us", text: "Who Uses Us" },
-        { link: "information-center", text: "Information Center" },
-        { link: "contact", text: "Contacts" },
+        { link: "how-it-works", text: "How it Works ?" },
+        { link: "transport-options", text: "Transport Options" },
+        { link: "who-we-serve", text: "Who We Serve ?" },
+        { link: "contacts", text: "Contacts" },
+        { link: "blog", text: "Blog" },
       ],
     };
   },
