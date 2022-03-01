@@ -40,8 +40,8 @@
                 <div class="col-12">
         
         <typewriter
-      :type-interval="50"
-      :replace-interval="1000"
+      :type-interval="120"
+      :replace-interval="1500"
     >
       <h1 class="mb-8">Shipping any Vehicle,  Anywhere, Any Time </h1>
       <h6 class="mb-16">As Soon As Possible</h6>
