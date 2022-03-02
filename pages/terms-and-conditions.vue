@@ -3,7 +3,10 @@
     <div class="container">
       <div class="row">
         <div class="col-12 mb-48">
-          <div class="wrapper pr-100 pl-100 pt-28 pb-8">
+          <div class="wrapper pr-100 pl-100 pt-28 pb-8" data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
             <div class="d-flex align-items-center mb-48">
               <svg
                 width="33"

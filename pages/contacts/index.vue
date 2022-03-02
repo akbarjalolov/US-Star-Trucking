@@ -3,7 +3,11 @@
  <div class="common contacts mt-100">
     <div class="container pt-54 pb-54">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12"
+         data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
           <div class="d-flex align-items-center mb-48">
             <svg
               width="34"
@@ -19,13 +23,15 @@
                 fill="white"
               />
             </svg>
-
             <h2 class="ml-18">Contacts</h2>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-lg-5">
+        <div class="col-12 col-lg-5" data-aos="fade-right"
+          data-aos-once="true"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600">
           <div class="contact-card pt-28 pb-28 pr-24 pl-24">
             <h5 class="mb-8">Let’s talk</h5>
             <p class="mb-24">
@@ -140,7 +146,10 @@
             <button class="dark-btn">SEND</button>
           </div>
         </div>
-        <div class="offset-lg-1 col-12 col-lg-6 text-center">
+        <div class="offset-lg-1 col-12 col-lg-6 text-center" data-aos="fade-left"
+          data-aos-once="true"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600">
           <div class="mb-67">
             <img src="images/contact.svg" alt="" />
           </div>

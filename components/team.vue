@@ -15,6 +15,10 @@
       <div class="row">
         <div class="col-12 col-md-4 col-lg-3 col-sm-6"
         v-for="(item, index) in team" :key="index"
+        data-aos="flip-right"
+            data-aos-once="true"
+            data-aos-anchor-placement="bottom"
+            data-aos-duration="600"
         >
           <div class="team-cards text-center mb-24">
             <img class="bg-effect" src="images/logo-background.svg" alt="">

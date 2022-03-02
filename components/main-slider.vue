@@ -40,11 +40,11 @@
                 <div class="col-12">
         
         <typewriter
-      :type-interval="120"
-      :replace-interval="1500"
+      :type-interval="100"
+      :replace-interval="1400"
     >
-      <h1 class="mb-8">Shipping any Vehicle,  Anywhere, Any Time </h1>
-      <h6 class="mb-16">As Soon As Possible</h6>
+      <h1 class="mb-8">Competitive rates, safety, and reliable on-time</h1>
+      <h6 class="mb-16">Your reliable, care-free, timely, safe, pocket friendly  Auto Transport Company!</h6>
 
     </typewriter>
     <div  data-aos="fade-left"

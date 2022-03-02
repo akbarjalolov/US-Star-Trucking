@@ -2,7 +2,12 @@
 <div>
   <div class="how-it-works common pt-54 pb-54">
     <div class="container mt-100">
-      <div class="row">
+      <div class="row"
+      data-aos="fade-right"
+          data-aos-once="true"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
+      >
         <div class="col-12 mb-48">
           <div class="d-flex align-items-center">
             <svg
@@ -44,7 +49,12 @@
           </p>
         </div>
       </div>
-      <div class="row flex-column-reverse flex-lg-row mb-79">
+      <div class="row flex-column-reverse flex-lg-row mb-79"
+      data-aos="fade-left"
+          data-aos-once="true"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600"
+      >
          <div class="col-12 col-lg-9">
           <h5 class="mb-8">
             We pick up your car and the vehicle transport journey begins
@@ -62,7 +72,10 @@ Just prep your vehicle for car hauling by cleaning it inside and out, removing v
         </div>
         
       </div>
-      <div class="row">
+      <div class="row" data-aos="fade-right"
+          data-aos-once="true"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="600">
          <div class="col-12 col-lg-3">
           <div class="text-center text-lg-left">
             <img class="img-fluid" src="/images/third-step.png" alt="">

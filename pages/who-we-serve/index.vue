@@ -2,7 +2,10 @@
 <div>
   <div class="how-it-works common pt-54 pb-54">
     <div class="container mt-100">
-      <div class="row">
+      <div class="row"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
         <div class="col-12 mb-48">
           <div class="d-flex align-items-center">
          <svg width="48" height="40" viewBox="0 0 48 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,7 +25,10 @@ With Nexus, you won't have to compromise good service to get a good car shipping
           </p>
         </div>
       </div>
-      <div class="row align-items-center mb-64">
+      <div class="row align-items-center mb-64"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
         <div class="col-12 col-lg-4">
           <div class="text-center text-lg-left">
             <img class="img-fluid" src="/images/mover.jpg" alt="">
@@ -41,7 +47,10 @@ You can move a car and virtually forget about it, allowing you and your family t
           </p>
         </div>
       </div>
-      <div class="row mb-64 align-items-center flex-column-reverse flex-lg-row">
+      <div class="row mb-64 align-items-center flex-column-reverse flex-lg-row"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
          <div class="col-12 col-lg-8">
           <h5 class="mb-8">
             Car Dealers
@@ -57,7 +66,10 @@ You can move a car and virtually forget about it, allowing you and your family t
         </div>
         
       </div>
-      <div class="row mb-64 align-items-center">
+      <div class="row mb-64 align-items-center"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
          <div class="col-12 col-lg-4">
           <div class="text-center text-lg-left">
             <img class="img-fluid" src="/images/oil.jpg" alt="">
@@ -72,7 +84,10 @@ You can move a car and virtually forget about it, allowing you and your family t
           </p>
         </div>
       </div>
-      <div class="row mb-64 align-items-center flex-column-reverse flex-lg-row">
+      <div class="row mb-64 align-items-center flex-column-reverse flex-lg-row"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
          <div class="col-12 col-lg-8">
           <h5 class="mb-8">
             Online Car Buyers
@@ -88,7 +103,10 @@ You can move a car and virtually forget about it, allowing you and your family t
         </div>
         
       </div>
-      <div class="row mb-64 align-items-center">
+      <div class="row mb-64 align-items-center"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
          <div class="col-12 col-lg-4">
           <div class="text-center text-lg-left">
             <img class="img-fluid" src="/images/classic-car.jpg" alt="">
@@ -104,7 +122,10 @@ You can move a car and virtually forget about it, allowing you and your family t
           </p>
         </div>
       </div>
-       <div class="row mb-64 align-items-center flex-column-reverse flex-lg-row">
+       <div class="row mb-64 align-items-center flex-column-reverse flex-lg-row"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
          <div class="col-12 col-lg-8">
           <h5 class="mb-8">
             All Season Auto Transportation
@@ -120,7 +141,10 @@ You can move a car and virtually forget about it, allowing you and your family t
         </div>
         
       </div>
-       <div class="row  align-items-center">
+       <div class="row  align-items-center"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
          <div class="col-12 col-lg-4">
           <div class="text-center text-lg-left">
             <img class="img-fluid" src="/images/military.jpg" alt="">

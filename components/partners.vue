@@ -113,6 +113,7 @@ export default {
        settings: {
         infinite: false,
         speed: 500,
+        autoplay: true,
         slidesToShow: 4,
         slidesToScroll: 1,
         infinite: true,

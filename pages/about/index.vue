@@ -3,6 +3,10 @@
     <div
       class="img"
       v-bind:style="{ 'background-image': 'url(' + image + ')' }"
+       data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600"
     >
       <div class="gradient">
         <div class="container">
@@ -17,7 +21,10 @@
                 flex-column
               "
             >
-              <svg
+              <svg data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center"
+            data-aos-duration="600"
                 width="586"
                 height="118"
                 viewBox="0 0 586 118"
@@ -118,7 +125,10 @@
       </div>
     </div>
 
-    <div class="numbers pt-54 pb-54">
+    <div class="numbers pt-54 pb-54"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center"
+            data-aos-duration="600">
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-6 col-12 text-center">
@@ -239,10 +249,13 @@
         </div>
       </div>
     </div>
-    <div class="vision-cards pt-54 pb-54">
+    <div class="vision-cards pt-54 pb-54" >
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-4 col-md-6 text-center">
+          <div class="col-12 col-lg-4 col-md-6 text-center" data-aos="flip-right"
+            data-aos-once="true"
+            data-aos-anchor-placement="bottom"
+            data-aos-duration="600">
             <div class="cards pr-24 pl-24 pt-48 relative">
               <svg
                 class="back"
@@ -267,7 +280,10 @@
               </p>
             </div>
           </div>
-          <div class="col-12 col-lg-4 col-md-6 text-center">
+          <div class="col-12 col-lg-4 col-md-6 text-center" data-aos="flip-right"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
             <div class="cards pr-24 pl-24 pt-48">
               <svg
                 class="back"
@@ -292,7 +308,10 @@
               </p>
             </div>
           </div>
-          <div class="col-12 col-lg-4 col-md-6 text-center">
+          <div class="col-12 col-lg-4 col-md-6 text-center" data-aos="flip-right"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
             <div class="cards pr-24 pl-24 pt-48">
               <svg
                 class="back"
@@ -493,9 +512,9 @@
       </div>
     </div>
     <team />
-    <faq/>
-    <reviews/>
-    <partners/>
+    <faq  />
+    <reviews  />
+    <partners />
   </div>
 </template>
 
@@ -505,14 +524,14 @@ import "aos/dist/aos.css";
 import team from "@/components/team";
 import reviews from "@/components/reviews.vue";
 import partners from "@/components/partners.vue";
-import Faq from '../../components/faq.vue';
+import Faq from "../../components/faq.vue";
 export default {
   layout: "pages",
   components: {
     team,
     reviews,
     partners,
-    Faq
+    Faq,
   },
 
   data() {
@@ -524,9 +543,8 @@ export default {
     };
   },
 
-  mounted(){
-    
+  mounted() {
     AOS.init();
-  }
+  },
 };
 </script>

@@ -36,7 +36,10 @@
       <div class="row">
         <div class="col-12">
           <div class="accordion" role="tablist">
-            <b-card no-body>
+            <b-card no-body data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
               <b-card-header header-tag="header" role="tab">
                 <div>
                   <b-button
@@ -97,7 +100,10 @@
                 </b-card-body>
               </b-collapse>
             </b-card>
-             <b-card no-body>
+             <b-card no-body data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
               <b-card-header header-tag="header" role="tab">
                 <div>
                   <b-button
@@ -158,7 +164,10 @@
                 </b-card-body>
               </b-collapse>
             </b-card>
-             <b-card no-body>
+             <b-card no-body data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
               <b-card-header header-tag="header" role="tab">
                 <div>
                   <b-button
@@ -219,7 +228,10 @@
                 </b-card-body>
               </b-collapse>
             </b-card>
-             <b-card no-body>
+             <b-card no-body data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
               <b-card-header header-tag="header" role="tab">
                 <div>
                   <b-button

@@ -3,7 +3,10 @@
   <div class="how-it-works common pt-54 pb-54">
     <div class="container mt-100">
       <div class="row">
-        <div class="col-12 mb-48">
+        <div class="col-12 mb-48"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
           <div class="d-flex align-items-center">
           <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M32.6578 35.103C33.7339 35.103 34.6063 34.2306 34.6063 33.1545C34.6063 32.0784 33.7339 31.206 32.6578 31.206C31.5816 31.206 30.7093 32.0784 30.7093 33.1545C30.7093 34.2306 31.5816 35.103 32.6578 35.103ZM32.6578 39C35.8862 39 38.5033 36.3829 38.5033 33.1545C38.5033 29.9261 35.8862 27.309 32.6578 27.309C29.4294 27.309 26.8123 29.9261 26.8123 33.1545C26.8123 36.3829 29.4294 39 32.6578 39Z" fill="white"/>
@@ -15,7 +18,10 @@
           </div>
         </div>
       </div>
-      <div class="row align-items-center mb-64">
+      <div class="row align-items-center mb-64"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
         <div class="col-12 col-lg-4">
           <div class="text-center text-lg-left">
             <img class="img-fluid" src="/images/door-to-door.png" alt="">
@@ -31,7 +37,10 @@ At Nexus Auto Transport, we want to make the process of shipping your car from p
           </p>
         </div>
       </div>
-      <div class="row mb-64 align-items-center flex-column-reverse flex-lg-row">
+      <div class="row mb-64 align-items-center flex-column-reverse flex-lg-row"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
          <div class="col-12 col-lg-8">
           <h5 class="mb-8">
             Open Auto Transport
@@ -48,7 +57,10 @@ At Nexus Auto Transport, we want to make the process of shipping your car from p
         </div>
         
       </div>
-      <div class="row mb-64 align-items-center">
+      <div class="row mb-64 align-items-center"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
          <div class="col-12 col-lg-4">
           <div class="text-center text-lg-left">
             <img class="img-fluid" src="/images/enclosed.png" alt="">
@@ -64,7 +76,10 @@ At Nexus Auto Transport, we want to make the process of shipping your car from p
           </p>
         </div>
       </div>
-      <div class="row mb-64 align-items-center flex-column-reverse flex-lg-row">
+      <div class="row mb-64 align-items-center flex-column-reverse flex-lg-row"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
          <div class="col-12 col-lg-8">
           <h5 class="mb-8">
             Seasonal Auto Relocation
@@ -81,7 +96,10 @@ At Nexus Auto Transport, we want to make the process of shipping your car from p
         </div>
         
       </div>
-      <div class="row mb-64 align-items-center">
+      <div class="row mb-64 align-items-center"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
          <div class="col-12 col-lg-4">
           <div class="text-center text-lg-left">
             <img class="img-fluid" src="/images/classic.png" alt="">
@@ -97,7 +115,10 @@ At Nexus Auto Transport, we want to make the process of shipping your car from p
           </p>
         </div>
       </div>
-       <div class="row align-items-center flex-column-reverse flex-lg-row">
+       <div class="row align-items-center flex-column-reverse flex-lg-row"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
          <div class="col-12 col-lg-8">
           <h5 class="mb-8">
             Expedited Car Shipping

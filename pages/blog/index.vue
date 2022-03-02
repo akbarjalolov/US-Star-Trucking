@@ -1,7 +1,10 @@
 <template>
   <div class="common blog mt-100">
     <div class="container pt-54 pb-54">
-      <div class="row">
+      <div class="row"  data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
         <div class="col-12">
           <div class="d-flex align-items-center mb-48">
             <svg
@@ -31,10 +34,13 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" >
         <div class="col-12 col-sm-6 col-lg-4"
         v-for="(item, index) in blog" :key="index"
-        >
+         data-aos="flip-down"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
           <nuxt-link class="blog-cards mb-20" :to="`blog/${item.link}`">
             <div class="image" v-bind:style="{ backgroundImage: 'url(' + item.img + ')' }">
 
