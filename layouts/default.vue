@@ -29,7 +29,7 @@ import loader from '../components/loader.vue'
     if ( this.loading == true) {
     setTimeout(() => {
       this.loading = false;
-    }, 5000);
+    }, 3000);
     }
 
   },

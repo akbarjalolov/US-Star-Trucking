@@ -30,7 +30,12 @@
             </svg>
 
             <h2 class="ml-18">F.A.Q.</h2>
+            
           </div>
+          <p><br><br>
+             <strong> Your car shipping questions answered</strong> <br><br>
+              You can always contact one of our helpful auto transport experts standing by to help you craft the perfect solution for your personal or commercial auto transport needs. CALL NOW  toll free (865) 730-49-92
+            </p>
         </div>
       </div>
       <div class="row">
@@ -53,7 +58,7 @@
                     block
                     v-b-toggle.accordion-1
                   >
-                    <p>WHAT IS YOUR RETURNS POLICY?</p>
+                    <p>Is US Star Trucking LLC  legit?</p>
                     <svg
                       width="28"
                       height="28"
@@ -87,15 +92,7 @@
               >
                 <b-card-body class="pt-19 pr-20 pb-34 pl-20">
                   <b-card-text class="text-left">
-                    Items must be returned within 28 days of receipt. Items must
-                    be unworn and unwashed. Pierced jewellery cannot be returned
-                    for health and hygiene reasons. Underwear and swimwear can
-                    only be returned if the hygiene seal has not been removed.
-                    Beauty products and accessories cannot be returned for
-                    hygiene reasons. Shoes must be tried on indoors. Items must
-                    have all tags attached. We offer FREE RETURNS for UK
-                    customers however you must obtain proof of postage just in
-                    case your order is lost on its way back to PrettyLittleThing
+                    YES, US Star Trucking LLC is a legitimate car shipping company. They are full bonded, insured and licensed company with  ICC-MC #206532. They have been in the transport sector for 7 years and now provide nationwide vehicle shipment of any kind and size. US Star Trucking has an overall 4.6/5 on Google Ratings,  4.7/5 on  TransportReviews and 4.3/5 on BBB Ratings.
                   </b-card-text>
                 </b-card-body>
               </b-collapse>
@@ -117,7 +114,7 @@
                     block
                     v-b-toggle.accordion-2
                   >
-                    <p>WHAT IS YOUR RETURNS POLICY?</p>
+                    <p>How do I get a quote for shipping my vehicle?</p>
                     <svg
                       width="28"
                       height="28"
@@ -151,15 +148,7 @@
               >
                 <b-card-body class="pt-19 pr-20 pb-34 pl-20">
                   <b-card-text class="text-left">
-                    Items must be returned within 28 days of receipt. Items must
-                    be unworn and unwashed. Pierced jewellery cannot be returned
-                    for health and hygiene reasons. Underwear and swimwear can
-                    only be returned if the hygiene seal has not been removed.
-                    Beauty products and accessories cannot be returned for
-                    hygiene reasons. Shoes must be tried on indoors. Items must
-                    have all tags attached. We offer FREE RETURNS for UK
-                    customers however you must obtain proof of postage just in
-                    case your order is lost on its way back to PrettyLittleThing
+                    You can leave online request on our website and/or you can call us at (865) 730-4992 and one of our available agents will serve your car shipment needs. In both cases,  you will receive your car shipping quote to your email. All you need is the pick-up and delivery locations, vehicle make and model, as well as the pick-up date.
                   </b-card-text>
                 </b-card-body>
               </b-collapse>
@@ -181,7 +170,7 @@
                     block
                     v-b-toggle.accordion-3
                   >
-                    <p>WHAT IS YOUR RETURNS POLICY?</p>
+                    <p>What details do you need to place an order?</p>
                     <svg
                       width="28"
                       height="28"
@@ -215,15 +204,14 @@
               >
                 <b-card-body class="pt-19 pr-20 pb-34 pl-20">
                   <b-card-text class="text-left">
-                    Items must be returned within 28 days of receipt. Items must
-                    be unworn and unwashed. Pierced jewellery cannot be returned
-                    for health and hygiene reasons. Underwear and swimwear can
-                    only be returned if the hygiene seal has not been removed.
-                    Beauty products and accessories cannot be returned for
-                    hygiene reasons. Shoes must be tried on indoors. Items must
-                    have all tags attached. We offer FREE RETURNS for UK
-                    customers however you must obtain proof of postage just in
-                    case your order is lost on its way back to PrettyLittleThing
+                    The following information is required to place an order:
+<br>
+                   <br> - Customer’s contact info (Full name, email address, phone number)
+                   <br> - Exact addresses for the pick-up location and delivery location
+                   <br> - Name and contact details of people available in pick-up and drop-off location
+                   <br> - Desired pick dates
+                   <br> - Vehicle info (the year, make, and model)
+                   <br> - Vehicle condition (running or non-running)
                   </b-card-text>
                 </b-card-body>
               </b-collapse>
@@ -245,7 +233,7 @@
                     block
                     v-b-toggle.accordion-4
                   >
-                    <p>WHAT IS YOUR RETURNS POLICY?</p>
+                    <p>How is my car shipping cost calculated?</p>
                     <svg
                       width="28"
                       height="28"
@@ -279,15 +267,72 @@
               >
                 <b-card-body class="pt-19 pr-20 pb-34 pl-20">
                   <b-card-text class="text-left">
-                    Items must be returned within 28 days of receipt. Items must
-                    be unworn and unwashed. Pierced jewellery cannot be returned
-                    for health and hygiene reasons. Underwear and swimwear can
-                    only be returned if the hygiene seal has not been removed.
-                    Beauty products and accessories cannot be returned for
-                    hygiene reasons. Shoes must be tried on indoors. Items must
-                    have all tags attached. We offer FREE RETURNS for UK
-                    customers however you must obtain proof of postage just in
-                    case your order is lost on its way back to PrettyLittleThing
+                    There are many factors that affect overall  price quote for your auto transportation. However the main factors include:
+<br>
+<br> - Vehicle make and model
+<br> - Vehicle size and weight
+<br> - Distance between locations
+<br> - Any upgrades such as enclosed transport or expedited service
+<br> - The time of year
+<br>
+The cost increases if you decide to choose optional add-ons at the time of booking, such as top-load service or enclosed carrier
+                  </b-card-text>
+                </b-card-body>
+              </b-collapse>
+            </b-card>
+             <b-card no-body data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="600">
+              <b-card-header header-tag="header" role="tab">
+                <div>
+                  <b-button
+                    class="
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                      text-left
+                      p-20
+                    "
+                    block
+                    v-b-toggle.accordion-5
+                  >
+                    <p>How do I pay for  may auto shipping?</p>
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 28 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.999 4.10936L13.999 23.8877"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M23.897 14.0011L4.1001 13.999"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </b-button>
+                </div>
+              </b-card-header>
+              <b-collapse
+                id="accordion-5"
+                visible
+                accordion="my-accordion"
+                role="tabpanel"
+              >
+                <b-card-body class="pt-19 pr-20 pb-34 pl-20">
+                  <b-card-text class="text-left">
+                    Payment procedure is very simple! <br>
+You will pay an initial reservation fee once we assign you a proper carrier. At this point we accept all major credit cards, money orders, electronic transfers (Zelle/Cashapp/Venmo), as well as bank/certified checks. The remaining balance due at upon the delivery. You can pay the driver directly in cash, money order, or bank/certified check.
                   </b-card-text>
                 </b-card-body>
               </b-collapse>

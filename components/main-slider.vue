@@ -99,7 +99,7 @@ export default {
       },
 
       mainPics: [
-          {src: '/images/video.mp4', alt:'Transportation pics', type:'video'},
+          {src: '/images/video2.mp4', alt:'Transportation pics', type:'video'},
           {src: '/images/main.png', alt:'Transportation pics', type:'picture'},
           {src: '/images/main.png', alt:'Transportation pics', type:'picture'},
           {src: '/images/video.mp4', alt:'Transportation pics', type:'video'}

@@ -275,8 +275,7 @@
               <img :src="vision" alt="" />
               <h6 class="mt-24 mb-12">Our vision</h6>
               <p>
-                We lead our brand to be one of the best companies within the
-                industry in the world
+                At US Star Trucking, our mission is to make transportation of  the vehicles as easy, safe, and affordable as possible nationwide and build trust and communicate well with our customers throughout all the steps.
               </p>
             </div>
           </div>
@@ -302,9 +301,7 @@
               <img :src="goal" alt="" />
               <h6 class="mt-24 mb-12">Our goal</h6>
               <p>
-                Our goal is content customer who always comes back and
-                recommends our company. Our goal is confident, motivated,
-                independent and responsible employee
+                Our ultimate goal is to become all-in-one Auto Transportation company to service vehicle shipment needs of any kind and size both nationally and globally.
               </p>
             </div>
           </div>
@@ -329,183 +326,9 @@
               </svg>
               <img :src="value" alt="" />
               <h6 class="mt-24 mb-12">Our values</h6>
-              <ul class="text-left">
-                <li>
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M14.2929 9.29289C14.6834 8.90237 15.3166 8.90237 15.7071 9.29289C16.0676 9.65338 16.0953 10.2206 15.7903 10.6129L15.7071 10.7071L11.7071 14.7071C11.3466 15.0676 10.7794 15.0953 10.3871 14.7903L10.2929 14.7071L8.29289 12.7071C7.90237 12.3166 7.90237 11.6834 8.29289 11.2929C8.65338 10.9324 9.22061 10.9047 9.6129 11.2097L9.70711 11.2929L11 12.585L14.2929 9.29289Z"
-                      fill="#fff"
-                    />
-                    <g opacity="1">
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4Z"
-                        fill="#fff"
-                      />
-                    </g>
-                  </svg>
-                  Kindness
-                </li>
-                <li>
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M14.2929 9.29289C14.6834 8.90237 15.3166 8.90237 15.7071 9.29289C16.0676 9.65338 16.0953 10.2206 15.7903 10.6129L15.7071 10.7071L11.7071 14.7071C11.3466 15.0676 10.7794 15.0953 10.3871 14.7903L10.2929 14.7071L8.29289 12.7071C7.90237 12.3166 7.90237 11.6834 8.29289 11.2929C8.65338 10.9324 9.22061 10.9047 9.6129 11.2097L9.70711 11.2929L11 12.585L14.2929 9.29289Z"
-                      fill="#fff"
-                    />
-                    <g opacity="1">
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4Z"
-                        fill="#fff"
-                      />
-                    </g>
-                  </svg>
-                  Trust
-                </li>
-                <li>
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M14.2929 9.29289C14.6834 8.90237 15.3166 8.90237 15.7071 9.29289C16.0676 9.65338 16.0953 10.2206 15.7903 10.6129L15.7071 10.7071L11.7071 14.7071C11.3466 15.0676 10.7794 15.0953 10.3871 14.7903L10.2929 14.7071L8.29289 12.7071C7.90237 12.3166 7.90237 11.6834 8.29289 11.2929C8.65338 10.9324 9.22061 10.9047 9.6129 11.2097L9.70711 11.2929L11 12.585L14.2929 9.29289Z"
-                      fill="#fff"
-                    />
-                    <g opacity="1">
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4Z"
-                        fill="#fff"
-                      />
-                    </g>
-                  </svg>
-                  Responsibility
-                </li>
-                <li>
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M14.2929 9.29289C14.6834 8.90237 15.3166 8.90237 15.7071 9.29289C16.0676 9.65338 16.0953 10.2206 15.7903 10.6129L15.7071 10.7071L11.7071 14.7071C11.3466 15.0676 10.7794 15.0953 10.3871 14.7903L10.2929 14.7071L8.29289 12.7071C7.90237 12.3166 7.90237 11.6834 8.29289 11.2929C8.65338 10.9324 9.22061 10.9047 9.6129 11.2097L9.70711 11.2929L11 12.585L14.2929 9.29289Z"
-                      fill="#fff"
-                    />
-                    <g opacity="1">
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4Z"
-                        fill="#fff"
-                      />
-                    </g>
-                  </svg>
-                  Mutual respect
-                </li>
-                <li>
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M14.2929 9.29289C14.6834 8.90237 15.3166 8.90237 15.7071 9.29289C16.0676 9.65338 16.0953 10.2206 15.7903 10.6129L15.7071 10.7071L11.7071 14.7071C11.3466 15.0676 10.7794 15.0953 10.3871 14.7903L10.2929 14.7071L8.29289 12.7071C7.90237 12.3166 7.90237 11.6834 8.29289 11.2929C8.65338 10.9324 9.22061 10.9047 9.6129 11.2097L9.70711 11.2929L11 12.585L14.2929 9.29289Z"
-                      fill="#fff"
-                    />
-                    <g opacity="1">
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4Z"
-                        fill="#fff"
-                      />
-                    </g>
-                  </svg>
-                  Honesty
-                </li>
-                <li>
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M14.2929 9.29289C14.6834 8.90237 15.3166 8.90237 15.7071 9.29289C16.0676 9.65338 16.0953 10.2206 15.7903 10.6129L15.7071 10.7071L11.7071 14.7071C11.3466 15.0676 10.7794 15.0953 10.3871 14.7903L10.2929 14.7071L8.29289 12.7071C7.90237 12.3166 7.90237 11.6834 8.29289 11.2929C8.65338 10.9324 9.22061 10.9047 9.6129 11.2097L9.70711 11.2929L11 12.585L14.2929 9.29289Z"
-                      fill="#fff"
-                    />
-                    <g opacity="1">
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4Z"
-                        fill="#fff"
-                      />
-                    </g>
-                  </svg>
-                  Positive thinking
-                </li>
-                <li>
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M14.2929 9.29289C14.6834 8.90237 15.3166 8.90237 15.7071 9.29289C16.0676 9.65338 16.0953 10.2206 15.7903 10.6129L15.7071 10.7071L11.7071 14.7071C11.3466 15.0676 10.7794 15.0953 10.3871 14.7903L10.2929 14.7071L8.29289 12.7071C7.90237 12.3166 7.90237 11.6834 8.29289 11.2929C8.65338 10.9324 9.22061 10.9047 9.6129 11.2097L9.70711 11.2929L11 12.585L14.2929 9.29289Z"
-                      fill="#fff"
-                    />
-                    <g opacity="1">
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4Z"
-                        fill="#fff"
-                      />
-                    </g>
-                  </svg>
-                  Pro-activeness
-                </li>
-              </ul>
+             <p>
+               Here at US Star Trucking,  we deeply believe in essence of customer service, innovations, credibility and their role in our business growth.  These principles form a very foundation of our business strategy and we strive to follow them by all means.
+             </p>
             </div>
           </div>
         </div>

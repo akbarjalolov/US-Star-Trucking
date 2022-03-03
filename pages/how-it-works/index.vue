@@ -40,12 +40,16 @@
         </div>
         <div class="col-12 col-lg-9 mb-79">
           <h5 class="mb-8">
-            Schedule a car shipment online or over the phone.
+            Book your vehicle transportation online or by phone.
           </h5>
           <p>
-            Schedule a vehicle shipment with Nexus and you'll be surprised at how easy it is! All you have to do is enter your car pickup and car delivery zip codes in our online car shipping quote tool (or give that information to one of our dedicated vehicle transport agents), select your vehicle type and size, choose between open or enclosed auto transport, and pick from a variety of different car shipment scheduling dates.
+           It's simple to send a car using US Star Trucking! 
+<br><br>
 
-            You're bound to find a fair shipping rate that works for you, or you can pay a bit more for expedited enclosed vehicle transport. It all depends on your needs and the driver availability of our network of car haulers. Reserve your car shipment with a refundable $0 reservation fee. Our low-risk car delivery service is suitable for any budget.
+Using our online car shipping quotation tool, you just submit some necessary details of your shipment such as pickup and destination zip codes, trailer type, vehicle details and  shipping dates.
+<br><br>
+
+Then one of our available agents will manually calculate the best competitive quotes and get back to you shortly via email and  phone call.  Then you can go ahead and compare our prices and services (we know you want to!) — we’re sure you’ll find our prices very competitive.
           </p>
         </div>
       </div>
@@ -57,12 +61,15 @@
       >
          <div class="col-12 col-lg-9">
           <h5 class="mb-8">
-            We pick up your car and the vehicle transport journey begins
+            We pick up your vehicle
           </h5>
           <p>
-            One of our expert Nexus auto transport coordinators will work with you to arrange a vehicle pickup date and time which works best for you. When you ship a car direct with Nexus, we do our very best to work around your schedule!
+           US Star Trucking experts will work with you to set up a pick-up time and date that works best for you. As a direct customer of our company, we do our best to work around your schedule and assign only trusted truckers for your shipment.
+<br><br>
 
-Just prep your vehicle for car hauling by cleaning it inside and out, removing valuable personal items, and making sure there's at least a quarter tank of gas for loading and unloading it off of the car hauler. On car pickup day, you or someone you authorize through Nexus will inspect your vehicle with your driver to notate preexisting damages and other concerns. Once the Bill of Lading and the inspection report are signed, your car will be on its way!
+When your trucker arrives, both of you will inspect your car together and sign a Bill of Lading. Then  the assigned trucker will take care of the rest.  
+<br><br>
+While your car is enjoying its journey, you can check in with your trucker directly  as often as  you wish to get updates.
           </p>
         </div>
          <div class="col-12 col-lg-3">
@@ -83,12 +90,11 @@ Just prep your vehicle for car hauling by cleaning it inside and out, removing v
         </div>
         <div class="col-12 col-lg-9 mb-79">
           <h5 class="mb-8">
-            Our car hauling service delivers your vehicle to its destination.
+            Receive your vehicle 
           </h5>
           <p>
-            You can contact your car transporter at any time during your vehicle shipment to ask questions about arrival times and anything else that may be on your mind. Our vehicle transport truckers go through rigorous safety and procedural training to ensure that your car is safe every step of the way!
-
-The vehicle transport hauler will come as close to your address as safely and legally possible. Any balance due on your vehicle shipment can be paid to your trucker upon arrival. You or someone you appoint will conduct a final vehicle inspection, sign off on a Bill of Lading, and you're done! Shipping is complex with other car moving companies. But, it’s as simple as 1, 2, 3 with Nexus.
+            You will receive a short update from the driver some time before the drop off which should leave you with enough preparation time.  Then your assigned trucker will deliver your vehicle to your doorsteps (as we offer door-to-door service) or any other drop off location of your convenience. <br><br> After a careful inspection to make sure everything looks good, you’ll simply sign the  Bill of landing
+to accept your delivery. That’s it!
           </p>
         </div>
       </div>

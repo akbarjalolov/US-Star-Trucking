@@ -102,19 +102,19 @@ export default {
     return {
       steps: [
         {
-          title: "Book your vehicle transportation online or by phone.",
+          title: "Quote & Reservation",
           description:
-            "It's simple to send a car using US Star Trucking! Using our online car shipping quotation tool, you just submit some necessary details of your shipment such as pickup and destination zip codes, trailer type, vehicle details and  shipping dates. Then one of our available agents will manually calculate the best competitive quotes and get back to you shortly via email and  phone call.  Then you can go ahead and compare our prices and services (we know you want to!) — we’re sure you’ll find our prices very competitive.",
+            "To begin, fill out our customized form with your first vehicle shipping details to get your custom Auto Transport quote. Shortly after that, you will receive your quote on your email and as a text message. You can book online through the link you receive in your email, or you can contact one of our experienced Transport Specialists standing by.",
         },
         {
-          title: "We pick up your vehicle",
+          title: "Pickup",
           description:
-            "US Star Trucking experts will work with you to set up a pick-up time and date that works best for you. As a direct customer of our company, we do our best to work around your schedule and assign only trusted truckers for your shipment. When your trucker arrives, both of you will inspect your car together and sign a Bill of Lading. Then  the assigned trucker will take care of the rest. While your car is enjoying its journey, you can check in with your trucker directly  as often as  you wish to get updates.",
+            "You will be notified once we assign a trucker to your vehicle and inform you about the pickup arrangements.  We will keep you informed throughout the process and you can contact us at any moment. ",
         },
         {
-          title: "Receive your vehicle",
+          title: "Delivery & Payment",
           description:
-            "You will receive a short update from the driver some time before the drop off which should leave you with enough preparation time.  Then your assigned trucker will deliver your vehicle to your doorsteps (as we offer door-to-door service) or any other drop off location of your convenience. After a careful inspection to make sure everything looks good, you’ll simply sign the  Bill of landing to accept your delivery. That’s it!",
+            "You together with the driver will inspect your vehicle upon delivery, and the driver will be paid the",
         },
       ],
     };
