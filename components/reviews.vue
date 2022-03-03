@@ -5,7 +5,7 @@
         <div class="col-12 mb-44" 
         data-aos="zoom-in"
          data-aos-once="true"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-anchor-placement="bottom"
         data-aos-duration="600">
           <div class="d-flex align-items-center justify-content-between">
             <div>
@@ -79,7 +79,7 @@
         </div>
         <div class="col-12"  data-aos="zoom-in-up"
          data-aos-once="true"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-anchor-placement="bottom"
         data-aos-duration="800">
           <div>
             <VueSlickCarousel
