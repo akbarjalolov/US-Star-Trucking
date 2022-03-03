@@ -100,9 +100,11 @@ export default {
 
       mainPics: [
           {src: '/images/video2.mp4', alt:'Transportation pics', type:'video'},
+          {src: '/images/main2.jpg', alt:'Transportation pics', type:'picture'},
+          {src: '/images/video4.mp4', alt:'Transportation pics', type:'video'},
           {src: '/images/main.png', alt:'Transportation pics', type:'picture'},
-          {src: '/images/main.png', alt:'Transportation pics', type:'picture'},
-          {src: '/images/video.mp4', alt:'Transportation pics', type:'video'}
+          {src: '/images/main3.jpg', alt:'Transportation pics', type:'picture'},
+
       ]
     };
   },
