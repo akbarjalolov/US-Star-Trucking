@@ -1,13 +1,15 @@
 <template>
   <div class="about-us mt-100">
     <div
-      class="img"
-      v-bind:style="{ 'background-image': 'url(' + image + ')' }"
+      class="img relative"
        data-aos="fade-up"
             data-aos-once="true"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="600"
     >
+     <video autoplay muted loop>
+          <source src="/images/aboutVideo.mp4" type="video/mp4" />
+        </video>
       <div class="gradient">
         <div class="container">
           <div class="row">
@@ -125,13 +127,13 @@
       </div>
     </div>
 
-    <div class="numbers pt-54 pb-54"  data-aos="fade-up"
+    <div class="numbers pt-54 pb-54"  >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12 text-center" data-aos="fade-up"
             data-aos-once="true"
             data-aos-anchor-placement="center"
             data-aos-duration="600">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-12 text-center">
             <svg
               class="mb-16"
               width="80"
@@ -156,7 +158,10 @@
             <h6 class="mb-8">10 000 +</h6>
             <p>Clients served</p>
           </div>
-          <div class="col-lg-3 col-md-6 col-12 text-center">
+          <div class="col-lg-3 col-md-6 col-12 text-center" data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center"
+            data-aos-duration="600">
             <svg
               class="mb-16"
               width="80"
@@ -194,7 +199,10 @@
             <h6 class="mb-8">12 000 +</h6>
             <p>Vehicles shipped</p>
           </div>
-          <div class="col-lg-3 col-md-6 col-12 text-center">
+          <div class="col-lg-3 col-md-6 col-12 text-center" data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center"
+            data-aos-duration="600">
             <svg
               class="mb-16"
               width="80"
@@ -214,7 +222,10 @@
             <h6 class="mb-8">8 000 +</h6>
             <p>Online reviews</p>
           </div>
-          <div class="col-lg-3 col-md-6 col-12 text-center">
+          <div class="col-lg-3 col-md-6 col-12 text-center" data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="center"
+            data-aos-duration="600">
             <svg
               class="mb-16"
               width="80"
