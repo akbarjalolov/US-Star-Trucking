@@ -21,7 +21,7 @@ import loader from '../components/loader.vue'
 
   data() {
     return {
-      loading: true
+      loading: false
     }
   },
 
