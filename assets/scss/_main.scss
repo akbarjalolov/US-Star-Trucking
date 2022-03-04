@@ -117,7 +117,48 @@
             }
         }
     }
+
+    @media screen and (max-width: 768px) {
+        .content4__container__text {
+            font-size: 36px;
+        }
+    
+        .content4__container__list {
+            font-size: 36px;
+        }
+
+        .content h6 {
+            font-size: 16px;
+        }
+        
+        .buttons {
+            .prev {
+                width: 40px;
+            }
+
+            .next {
+                width: 40px;
+            }
+        }
+
+        .main-slider {
+            height: 85vh;
+        }
+
+        .slick-dots {
+            justify-content: center !important;
+            width: 76%;
+            button {
+
+            width: 30px;
+        }
+
+        }
+    }
 }
+
+
+
 .slick-track {
     display: flex;
 }
@@ -1084,7 +1125,6 @@
       &__list {
         height: 161px;
         margin-top: 0;
-        padding-left: 18px;
         text-align: left;
         list-style: none;
         

@@ -37,20 +37,18 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-12 relative">
+          <div class="col-12 relative text-center text-lg-left">
             <!-- <h1 class="mb-8">Competitive rates, safety, and reliable on-time</h1> -->
             <div class="content4">
-              <div class="content4__container d-flex">
-                <p class="content4__container__text">Your </p>
+              <div class="content4__container d-flex justify-content-lg-start justify-content-center">
+                <p class="content4__container__text">We ship </p>
                 <ul class="content4__container__list">
-                  <li class="content4__container__list__item">reliable </li>
-                  <li class="content4__container__list__item">care-free </li>
-                  <li class="content4__container__list__item">timely </li>
-                  <li class="content4__container__list__item">pocket friendly </li>
+                  <li class="content4__container__list__item pl-18">cars </li>
+                  <li class="content4__container__list__item pl-18">SUVs </li>
+                  <li class="content4__container__list__item pl-18">RV </li>
+                  <li class="content4__container__list__item pl-18">Pickups </li>
                 </ul>
-                <p class="content4__container__text">
-                  Auto Transport Company!
-                </p>
+               
               </div>
             </div>
             <typewriter :type-interval="100" :replace-interval="1400">

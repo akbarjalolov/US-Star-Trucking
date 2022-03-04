@@ -2,7 +2,6 @@
   <div>
     <div class="menu" :class="activeMenu ? 'hidden-menu' : ''">
       <div class="menu-content pt-36 pl-56 pr-56">
-        
         <div
           class="
             links
@@ -136,8 +135,7 @@
               pb-25
             "
           >
-            <div class="burger"
-             @click="activeMenu = !activeMenu">
+            <div class="burger" @click="activeMenu = !activeMenu">
               <svg
                 class="ham ham2"
                 viewBox="0 0 100 100"
@@ -300,7 +298,9 @@
                 target="_blank"
                 href="https://apps.msgplane.com/quote/usst?id=24bc1d17-a5e2-45a0-8d54-a87a9f532e88"
               >
-                <button class="dark-btn pt-12 pb-12 pr-24 pl-24">GET A QUOTE</button>
+                <button class="dark-btn pt-12 pb-12 pr-24 pl-24">
+                  GET A QUOTE
+                </button>
               </a>
             </div>
           </div>
