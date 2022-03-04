@@ -12,7 +12,6 @@ $W: #ffffff;
   background: #e50914;
   border-radius: 10px;
   border: 1px solid white;
-  padding: 12px 24px;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -22,6 +21,15 @@ $W: #ffffff;
   transition: 0.3s all;
   color: #ffffff;
 
+  @media screen and (max-width: 768px) {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 450px) {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
   &:hover {
     background: white;
     color: #1A1B26;
@@ -47,6 +55,16 @@ $W: #ffffff;
     background: $bg;
     color: white;
     border: 1px solid $W;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 450px) {
+    padding: 6px 10px;
+    font-size: 13px;
   }
 }
 //!<Адаптивное свойство>====================================================================================

@@ -40,21 +40,22 @@
           <div class="col-12 relative">
             <!-- <h1 class="mb-8">Competitive rates, safety, and reliable on-time</h1> -->
             <div class="content4">
-              <div class="content4__container">
-                <p class="content4__container__text">Competitive</p>
-
+              <div class="content4__container d-flex">
+                <p class="content4__container__text">Your </p>
                 <ul class="content4__container__list">
-                  <li class="content4__container__list__item">rates !</li>
-                  <li class="content4__container__list__item">safety !</li>
-                  <li class="content4__container__list__item">reliable !</li>
-                  <li class="content4__container__list__item">on-time !</li>
+                  <li class="content4__container__list__item">reliable </li>
+                  <li class="content4__container__list__item">care-free </li>
+                  <li class="content4__container__list__item">timely </li>
+                  <li class="content4__container__list__item">pocket friendly </li>
                 </ul>
+                <p class="content4__container__text">
+                  Auto Transport Company!
+                </p>
               </div>
             </div>
             <typewriter :type-interval="100" :replace-interval="1400">
               <h6 class="mb-16">
-                Deliver your vehicles nationally on time with no hassle!
-              </h6>
+                Deliver your vehicles nationally on time with no hassle!</h6>
             </typewriter>
             <div
               data-aos="fade-left"
