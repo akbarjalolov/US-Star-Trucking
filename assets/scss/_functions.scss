@@ -13,13 +13,21 @@ $W: #ffffff;
   border-radius: 10px;
   border: 1px solid white;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
   letter-spacing: -0.36px;
   transition: 0.3s all;
   color: #ffffff;
+
+  svg {
+    margin-top: -2px;
+
+    path {
+      transition: 0.3s all;
+    }
+  }
 
   @media screen and (max-width: 768px) {
     padding: 8px 12px;
@@ -32,7 +40,12 @@ $W: #ffffff;
   }
   &:hover {
     background: white;
+    border-color: #1A1B26;
     color: #1A1B26;
+
+    svg path {
+    fill: #1A1B26;
+    }
   }
 }
 

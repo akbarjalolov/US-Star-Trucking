@@ -19,15 +19,20 @@
           <div class="d-flex justify-content-between">
             <div v-for="(item, index) in links" :key="index">
               <h5>
-                {{ item.main_title }}
+               Address: <br>
+               <a target="_blank"
+                href="https://goo.gl/maps/4uwsbsptu57L2UX66">
+                 314 Park View Cir, Pigeon Forge, TN 37863, United States
+                </a>
               </h5>
-              <ul>
-                <li v-for="(items, indexes) in item.childs" :key="indexes">
-                  <nuxt-link :to="`/${items.link}`">
-                    {{ items.title }}
-                  </nuxt-link>
-                </li>
-              </ul>
+                <h5>
+                  Phone: <br> <a href="tel: '+1 865-730-4992'">
+                  +1 865-730-4992
+                  </a>
+                </h5>
+                <h5>
+                  Email: <br> <a href="mailto:usstartrucking@gmail.com">usstartrucking@gmail.com</a>
+                </h5>
             </div>
           </div>
         </div>

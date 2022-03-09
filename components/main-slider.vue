@@ -41,20 +41,20 @@
             <!-- <h1 class="mb-8">Competitive rates, safety, and reliable on-time</h1> -->
             <div class="content4">
               <div class="content4__container d-flex justify-content-lg-start justify-content-center">
-                <p class="content4__container__text">We ship </p>
+                <p class="content4__container__text">WE SHIP </p>
                 <ul class="content4__container__list">
-                  <li class="content4__container__list__item pl-18">cars </li>
-                  <li class="content4__container__list__item pl-18">SUVs </li>
-                  <li class="content4__container__list__item pl-18">RV </li>
-                  <li class="content4__container__list__item pl-18">Pickups </li>
+                  <li class="content4__container__list__item pl-18">CARS </li>
+                  <li class="content4__container__list__item pl-18">SUVS </li>
+                  <li class="content4__container__list__item pl-18">TRUCKS </li>
+                  <li class="content4__container__list__item pl-18">MOTORCYCLES </li>
                 </ul>
                
               </div>
             </div>
-            <typewriter :type-interval="100" :replace-interval="1400">
+        
               <h6 class="mb-16">
                 Deliver your vehicles nationally on time with no hassle!</h6>
-            </typewriter>
+       
             <div
               data-aos="fade-left"
               data-aos-delay="3000"
